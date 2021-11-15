@@ -1,0 +1,28 @@
+*{
+    font-family: montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.MenuBar{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-tab-select{
+    cursor: pointer;
+    text-decoration: none;
+    color: #585858;
+}
+
+.menu-tab-select:hover{
+    color: #6F10B4 ;
+}
+
+@media screen and (max-width: 991px) {
+    .MenuBar{
+        display: flex;
+        justify-content: start;
+        padding-left: 10px;
+    }
+}
