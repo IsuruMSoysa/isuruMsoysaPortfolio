@@ -11,7 +11,7 @@ function App() {
     }
 
     return (
-        <div className="MenuBar pt-2">
+        <div className="MenuBar pt-1">
             <Navbar collapseOnSelect expand="lg"  >
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
