@@ -4,7 +4,8 @@ import {Link} from "react-router-dom";
 
 function App() {
 
-    const [clickedTab,setClickedTab] = useState(localStorage.getItem('tab'));
+     const [clickedTab,setClickedTab] = useState(localStorage.getItem('tab'));
+
 
     const handleMenuClick = (tabName) => {
         setClickedTab(tabName);

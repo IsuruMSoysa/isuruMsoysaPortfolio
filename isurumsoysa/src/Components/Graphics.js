@@ -79,7 +79,7 @@ const imgItems = imgArr.map((imgs) =>
 function Graphics() {
     return (
         <Container >
-            <section className="text-center" id="photos">
+            <section className="text-center pt-3" id="photos">
                 <div>{imgItems}</div>
             </section>
         </Container>
