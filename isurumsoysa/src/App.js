@@ -16,7 +16,7 @@ function App() {
         <Router>
                 <MenuBar/>
             <Routes>
-                <Route path="/home" element={<Home/>} />
+                <Route exact path="/" element={<Home/>} />
                 <Route path="/about" element={<About/>} />
                 <Route path="/graphics" element={<Graphics/>} />
                 <Route path="/projects" element={<Projects/>} />

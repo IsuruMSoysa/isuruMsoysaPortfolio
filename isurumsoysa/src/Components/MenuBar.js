@@ -4,10 +4,11 @@ import {Link} from "react-router-dom";
 
 function App() {
 
-    const [clickedTab,setClickedTab] = useState("Home");
+    const [clickedTab,setClickedTab] = useState(localStorage.getItem('tab'));
 
     const handleMenuClick = (tabName) => {
         setClickedTab(tabName);
+        localStorage.setItem('tab', tabName);
     }
 
     return (
@@ -18,12 +19,12 @@ function App() {
                             <Nav className="py-4" >
                                 {
                                     (clickedTab === "Home") ?
-                                        <Link to="/home" className=" px-4 mx-2"
+                                        <Link to="/" className=" px-4 mx-2"
                                                   onClick={()=>handleMenuClick("Home")}
                                                   style={{borderBottom:"3px solid #6F10B4", color:"#6F10B4"}}>
                                             <label className="menu-tab-select py-1" >Home</label>
                                         </Link> :
-                                        <Link to="/home"
+                                        <Link to="/"
                                             onClick={()=>handleMenuClick("Home")}
                                             className="menu-tab px-4 mx-2" >
                                             <label
