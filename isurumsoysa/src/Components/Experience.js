@@ -3,8 +3,14 @@ import {Steps} from "rsuite";
 import Mobile from "../Images/mobile.png";
 import Email from "../Images/email.png";
 import Li from "../Images/In.png";
-import Git from "../Images/git.png";
+import web from "../Images/Web.png";
 import Fb from "../Images/fb.png";
+import acc from "../Images/Logos/acc.png";
+import adv from "../Images/Logos/adv.png";
+import soft from "../Images/Logos/soft.png";
+import yng from "../Images/Logos/yng.png";
+import ual from "../Images/Logos/ua.png";
+
 
 function Experience() {
 
@@ -16,7 +22,7 @@ function Experience() {
                     <Col className="col-8 abt-tab-col my-2 py-3 px-4 mx-2">
                         <Row className="">
                             <Col className="exp-logo col-3 text-center">
-                                <img src={Li}
+                                <img src={acc}
                                      width="70%"
                                      height="auto"
                                      alt='Greet' />
@@ -28,7 +34,7 @@ function Experience() {
                                 <Row className="px-2 py-0">
                                     <Col className=" px-0 mx-1 col-1">
                                         <a href="http://www.accseedd.com/" target="_blank" rel="noopener noreferrer">
-                                        <img src={Fb}
+                                        <img src={web}
                                              className="exp-link"
                                              width="75%"
                                              height="auto"
@@ -62,7 +68,7 @@ function Experience() {
                     <Col className="col-8 abt-tab-col my-2 py-3 px-4 mx-2">
                         <Row className="">
                             <Col className="exp-logo col-3 text-center">
-                                <img src={Li}
+                                <img src={adv}
                                      width="70%"
                                      height="auto"
                                      alt='Greet' />
@@ -74,7 +80,7 @@ function Experience() {
                                 <Row className="px-2 py-0">
                                     <Col className="px-0 mx-1 col-1">
                                         <a href="https://advantis.world/3pl/" target="_blank" rel="noopener noreferrer">
-                                        <img src={Fb}
+                                        <img src={web}
                                              className="exp-link"
                                              width="75%"
                                              height="auto"
@@ -108,7 +114,7 @@ function Experience() {
                     <Col className="col-8 abt-tab-col my-2 py-3 px-4 mx-2">
                         <Row className="">
                             <Col className="exp-logo col-3 text-center">
-                                <img src={Li}
+                                <img src={soft}
                                      width="70%"
                                      height="auto"
                                      alt='Greet' />
@@ -120,7 +126,7 @@ function Experience() {
                                 <Row className="px-2 py-0">
                                     <Col className="px-0 mx-1 col-1">
                                         <a href="https://www.softvessel.com/" target="_blank" rel="noopener noreferrer">
-                                        <img src={Fb}
+                                        <img src={web}
                                              className="exp-link"
                                              width="75%"
                                              height="auto"
@@ -154,7 +160,7 @@ function Experience() {
                     <Col className="col-8 abt-tab-col my-2 py-3 px-4 mx-2">
                         <Row className="">
                             <Col className="exp-logo col-3 text-center">
-                                <img src={Li}
+                                <img src={yng}
                                      width="70%"
                                      height="auto"
                                      alt='Greet' />
@@ -184,7 +190,7 @@ function Experience() {
                     <Col className="col-8 abt-tab-col my-2 py-3 px-4 mx-2">
                         <Row className="">
                             <Col className="exp-logo col-3 text-center">
-                                <img src={Li}
+                                <img src={ual}
                                      width="70%"
                                      height="auto"
                                      alt='Greet' />
@@ -196,7 +202,7 @@ function Experience() {
                                 <Row className="px-2 py-0">
                                     <Col className="px-0 mx-1 col-1">
                                         <a href="https://unionassurance.com/" target="_blank" rel="noopener noreferrer">
-                                        <img src={Fb}
+                                        <img src={web}
                                              className="exp-link"
                                              width="75%"
                                              height="auto"
