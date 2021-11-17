@@ -9,6 +9,7 @@ import Graphics from "./Components/Graphics";
 import Projects from "./Components/Projects";
 import Experience from "./Components/Experience";
 import UIdesigns from "./Components/UIdesigns";
+import Copyright from "./Components/Copyright";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/experience" element={<Experience/>} />
                 <Route path="/uidesigns" element={<UIdesigns/>} />
             </Routes>
+                <Copyright/>
         </Router>
     </Container>
 
