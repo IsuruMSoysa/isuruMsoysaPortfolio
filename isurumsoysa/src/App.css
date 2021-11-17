@@ -153,5 +153,19 @@
 
 .visit-website-btn a:hover{
     color: white;
+}
 
+.exp-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp-link{
+    transition: 0.2s;
+}
+
+.exp-link:hover{
+    transform: scale(1.07);
+    transition: 0.2s;
 }
