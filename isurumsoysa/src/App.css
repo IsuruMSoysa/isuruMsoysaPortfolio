@@ -118,7 +118,7 @@
 }
 
 .abt-tab-col:hover{
-    box-shadow:0px 1px 3px #B0B0B0;
+    box-shadow:1px 2px 3px #6F10B4;
     transform: scale(1.01);
     transition: 0.2s;
 }
@@ -153,5 +153,19 @@
 
 .visit-website-btn a:hover{
     color: white;
+}
 
+.exp-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp-link{
+    transition: 0.2s;
+}
+
+.exp-link:hover{
+    transform: scale(1.07);
+    transition: 0.2s;
 }
