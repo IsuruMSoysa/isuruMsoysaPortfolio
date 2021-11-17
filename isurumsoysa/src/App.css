@@ -114,6 +114,13 @@
 .abt-tab-col{
     box-shadow:1px 1px 3px #B0B0B0;
     border-radius: 10px;
+    transition: 0.2s;
+}
+
+.abt-tab-col:hover{
+    box-shadow:0px 1px 3px #B0B0B0;
+    transform: scale(1.01);
+    transition: 0.2s;
 }
 
 .abt-tab{
@@ -122,4 +129,29 @@
 
 .abt-tab h4 {
     font-weight: bold;
+}
+
+.visit-website-btn{
+    background-color: white;
+    color: #6F10B4;
+    border: none;
+    border-radius: 20px;
+    transition: 0.2s;
+    box-shadow:1px 1px 3px #6F10B4;
+}
+
+.visit-website-btn a{
+    text-decoration: none;
+    color: #585858;
+}
+
+.visit-website-btn:hover{
+    transition: 0.2s;
+    background-color: #6F10B4;
+    color: white;
+}
+
+.visit-website-btn a:hover{
+    color: white;
+
 }

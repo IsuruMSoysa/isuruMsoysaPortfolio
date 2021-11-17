@@ -2,7 +2,7 @@ import {Col, Container, Row} from "react-bootstrap";
 
 function About() {
     return (
-        <Container fluid>
+        <Container >
             <Row className=" px-4">
                 <Col className="abt-tab-col my-2 py-3 px-4 mx-2">
                     <div className="abt-tab px-1">
