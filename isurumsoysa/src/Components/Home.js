@@ -5,6 +5,7 @@ import Mobile from '../Images/mobile.png';
 import Email from '../Images/email.png';
 import Git from '../Images/git.png';
 import Li from '../Images/In.png';
+import Fb from '../Images/fb.png';
 
 function Home() {
     return (
@@ -43,29 +44,33 @@ function Home() {
                             </Col>
                             <Col className="py-1 ps-3 col-4">
                                 <Row>
-                                    <Col>
-                                        <img src={Mobile}
-                                             width="75%"
-                                             height="auto"
-                                             alt='Greet' />
-                                    </Col>
-                                    <Col>
+                                    <Col className="exp-link">
+                                        <a href="mailto:isurumsoysa@gmail.com" target="_blank" rel="noopener noreferrer">
                                         <img src={Email}
                                              width="75%"
                                              height="auto"
-                                             alt='Greet' />
+                                             alt='Greet' /></a>
                                     </Col>
-                                    <Col>
+                                    <Col className="exp-link">
+                                        <a href="https://www.linkedin.com/in/isuru-m-soysa/" target="_blank" rel="noopener noreferrer">
                                         <img src={Li}
                                              width="75%"
                                              height="auto"
-                                             alt='Greet' />
+                                             alt='Greet' /></a>
                                     </Col>
-                                    <Col>
+                                    <Col className="exp-link">
+                                        <a href="https://github.com/IsuruMSoysa" target="_blank" rel="noopener noreferrer">
                                         <img src={Git}
                                              width="75%"
                                              height="auto"
-                                             alt='Greet' />
+                                             alt='Greet' /></a>
+                                    </Col>
+                                    <Col className="exp-link">
+                                        <a href="https://www.facebook.com/profile.php?id=100009437648038" target="_blank" rel="noopener noreferrer">
+                                        <img src={Fb}
+                                             width="75%"
+                                             height="auto"
+                                             alt='Greet' /></a>
                                     </Col>
                                 </Row>
                             </Col>
