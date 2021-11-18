@@ -10,8 +10,8 @@ import Fb from '../Images/fb.png';
 function Home() {
     return (
         <Container fluid>
-            <Row>
-                <Col className="home-intro  col-6">
+            <Row className="home-row">
+                <Col   className="home-intro  col-6">
                     <div className="home-intro-inter">
                         <Row>
                             <Col>
