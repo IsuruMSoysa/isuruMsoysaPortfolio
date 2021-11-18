@@ -1,7 +1,7 @@
 import {Col, Nav, Navbar, Row} from "react-bootstrap";
 import {useState} from "react";
 import {Link} from "react-router-dom";
-import isumso from "../Images/isumso.png";
+import isumso from "../Images/isumsoP.png";
 
 function App() {
 
