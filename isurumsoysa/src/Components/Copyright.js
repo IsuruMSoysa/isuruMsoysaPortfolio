@@ -9,8 +9,6 @@ function Copyright() {
                </Col>
            </Row>
         </Container>
-
-
     );
 }
 

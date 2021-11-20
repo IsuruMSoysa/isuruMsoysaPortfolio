@@ -19,28 +19,29 @@
     color: #6F10B4 ;
 }
 
+
+.home-intro{
+    display: grid;
+    align-content: center;
+}
+
+
 @media screen and (max-width: 991px) {
     .MenuBar{
         display: flex;
         justify-content: start;
         padding-left: 10px;
     }
+    .home-intro{
+        margin-left: -50px;
+    }
 }
 
-.home-intro{
-    vertical-align: center;
-    position: relative;
-}
+
 /*.hello-box{*/
 /*    border-bottom: 3px solid #6F10B4;*/
 /*}*/
 
-.home-intro-inter{
-    position: absolute;
-    top: 47%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-}
 .hello-text{
     color: #6F10B4;
     font-weight: bold;
@@ -184,21 +185,59 @@
     height: 100%;
 }
 
+@media screen and (max-width: 1441px) {
+    .hello-text{
+        font-size: 265%;
+    }
 
+    .home-description{
+        font-size: 100%;
+    }
+}
 
-/*@media screen and (max-width: 1090px) {*/
-/*    .hello-text{*/
-/*        font-size: 200%;*/
-/*    }*/
+@media screen and (max-width: 1412px) {
+    .hello-text{
+        font-size: 235%;
+    }
+    .home-description{
+        font-size: 100%;
+    }
+    .exp-link img {
+        width: 110%;
+    }
+    .hello-comma img{
+        width: 45%;
+    }
+}
 
-/*    .exp-link img {*/
-/*        width: 120%;*/
-/*    }*/
+@media screen and (max-width: 1190px) {
+    .hello-text{
+        font-size: 200%;
+    }
 
-/*    .home-description{*/
-/*        font-size: 90%;*/
-/*    }*/
-/*}*/
+    .exp-link img {
+        width: 120%;
+    }
+
+    .home-description{
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 1095px) {
+    .hello-text{
+        font-size: 200%;
+    }
+
+    .hello-img img {
+        width: 90%;
+    }
+
+    .home-description{
+        font-size: 90%;
+    }
+}
+
 
 
 /*@media screen and (max-width: 986px) {*/
@@ -225,3 +264,150 @@
 /*    }*/
 /*}*/
 
+/*@media screen and (max-width: 823px) {*/
+/*    .home-row{*/
+/*        padding-top: 50px;*/
+/*    }*/
+/*}*/
+
+@media screen and (max-width: 991px) {
+    .hello-comma img{
+        width: 40%;
+    }
+    .home-intro{
+        position: unset;
+    }
+    .hello-img{
+        position: relative;
+
+    }
+    .hello-img img{
+        width: 55%;
+        margin-top: -100px;
+    }
+
+    .home-description label{
+        margin-top: -100px;
+    }
+    .exp-link img {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 792px) {
+    .exp-link img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .exp-link img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 669px) {
+    .copy-row{
+        padding-top: 40px;
+    }
+    .logo img{
+        width: 15%;
+        padding: 20px 0;
+    }
+}
+@media screen and (max-width: 604px) {
+    .home-description label{
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .home-description label{
+        padding-top: 100px;
+    }
+    .exp-link img {
+        width: 140%;
+    }
+    .copy-row p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .exp-link img {
+        width: 180%;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    .logo {
+        display: none;
+    }
+    .MenuBar nav button{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .hello-img img{
+        width: 55%;
+        margin-top: -20px;
+    }
+    .exp-link img {
+        width: 210%;
+    }
+}
+@media screen and (max-width: 472px) {
+    .exp-link img {
+        width: 250%;
+    }
+    .hello-img img{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 409px) {
+    .exp-link img {
+        width: 350%;
+    }
+    .hello-text{
+        font-size: 170%;
+    }
+    .home-description label{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .exp-link img {
+        width: 500%;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .exp-link img {
+        width: 800%;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .exp-link img {
+        width: 1000%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .exp-logo img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .exp-det h5{
+        font-size: 14px;
+    }
+    .exp-det h6{
+        font-size: 14px;
+    }
+    .exp-link img {
+        width: 1200%;
+    }
+}

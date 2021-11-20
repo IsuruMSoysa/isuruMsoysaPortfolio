@@ -17,13 +17,12 @@ function App() {
        <Row>
            <Col>
                <Row>
-                   <Col className="text-center pt-3">
+                   <Col className="logo text-center pt-3">
                        <img src={isumso}
                             width="10%"
                             height="auto"
                             alt='Greet' />
                    </Col>
-
                </Row>
                <Row>
                    <div className="MenuBar">

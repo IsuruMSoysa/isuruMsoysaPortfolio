@@ -5,6 +5,7 @@ function Projects() {
     return (
         <Container >
             <Row className="project-row px-4">
+                <Col lg={6} md={12} sm={12} xs={12}  className="col-6">
                 <Col className="abt-tab-col my-2 py-3 px-4 mx-2">
                     <div className="abt-tab px-1">
                         <h4 style={{color:"#6F10B4"}}>examcarts.com (Web Application) - WIP</h4>
@@ -21,6 +22,8 @@ function Projects() {
                         </h6>
                     </div>
                 </Col>
+                </Col>
+                <Col lg={6} md={12} sm={12} xs={12}  className="col-6">
                 <Col className="abt-tab-col my-2 py-3 px-4 mx-2">
                     <div className="abt-tab px-1">
                         <h4 style={{color:"#6F10B4"}}>Lake View Cottage (Web Application) - 2021</h4>
@@ -41,10 +44,11 @@ function Projects() {
                          Visit Website
                         </button> </a>
                     </div>
-                </Col>
+                </Col></Col>
             </Row>
 
             <Row className="project-row px-4">
+                <Col lg={6} md={12} sm={12} xs={12}  className="col-6">
                 <Col className="abt-tab-col my-2 py-3 px-4 mx-2">
                     <div className="abt-tab px-1">
                         <h4 style={{color:"#6F10B4"}}>Liyane Arts (Web Application) - 2020</h4>
@@ -66,7 +70,8 @@ function Projects() {
                         <button className="visit-website-btn px-3 py-1">
                           Visit Website</button>  </a>
                     </div>
-                </Col>
+                </Col></Col>
+                <Col lg={6} md={12} sm={12} xs={12}  className="col-6">
                 <Col className="abt-tab-col my-2 py-3 px-4 mx-2">
                     <div className="abt-tab px-1">
                         <h4 style={{color:"#6F10B4"}}>IM ASSIST (Mobile Application) - 2020</h4>
@@ -80,11 +85,12 @@ function Projects() {
                                 and a Front-End developer </span> of this project. The mobile application was developed
                             using   <span style={{color:"#6F10B4"}}>Xamarin Forms, C# and Visual Studio IDE.</span>
                         </h6>
-                    </div>
+                    </div></Col>
                 </Col>
             </Row>
 
             <Row className="project-row px-4">
+                <Col lg={6} md={12} sm={12} xs={12}  className="col-6">
                 <Col className="abt-tab-col my-2 py-3 px-4 mx-2">
                     <div className="abt-tab px-1">
                         <h4 style={{color:"#6F10B4"}}>Malinga Herath Photography (Web Application) - 2020</h4>
@@ -99,7 +105,8 @@ function Projects() {
                             only using HTMl, CSS and Javascript.</span>
                         </h6>
                     </div>
-                </Col>
+                </Col></Col>
+                <Col lg={6} md={12} sm={12} xs={12}  className="col-6">
                 <Col className="abt-tab-col my-2 py-3 px-4 mx-2">
                     <div className="abt-tab px-1">
                         <h4 style={{color:"#6F10B4"}}>The New Tyre Center System (Stand-Alone Application) - 2019</h4>
@@ -112,7 +119,7 @@ function Projects() {
                             developed using <span style={{color:"#6F10B4"}}>Java and Netbeans IDE</span>
                         </h6>
                     </div>
-                </Col>
+                </Col></Col>
             </Row>
         </Container>
     );
