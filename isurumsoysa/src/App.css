@@ -400,14 +400,30 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 574px) {
     .exp-det h5{
         font-size: 14px;
     }
     .exp-det h6{
         font-size: 14px;
     }
-    .exp-link img {
-        width: 1200%;
+    .exp-link{
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 354px){
+    .exp-link{
+        width: 160%;
+    }
+}
+
+@media screen and (max-width: 354px){
+    .exp-link img{
+        width: 100%;
+    }
+    .my-links{
+        padding: 20px;
+        margin-left: 20px;
     }
 }

@@ -45,7 +45,8 @@ function Home() {
                                 <Row>
                                     <Col className="exp-link">
                                         <a href="mailto:isurumsoysa@gmail.com" target="_blank" rel="noopener noreferrer">
-                                        <img src={Email}
+                                        <img className="my-links"
+                                            src={Email}
                                              width="75%"
                                              height="auto"
                                              alt='Greet' /></a>
@@ -53,6 +54,7 @@ function Home() {
                                     <Col className="exp-link">
                                         <a href="https://www.linkedin.com/in/isuru-m-soysa/" target="_blank" rel="noopener noreferrer">
                                         <img src={Li}
+                                             className="my-links"
                                              width="75%"
                                              height="auto"
                                              alt='Greet' /></a>
@@ -61,6 +63,7 @@ function Home() {
                                         <a href="https://github.com/IsuruMSoysa" target="_blank" rel="noopener noreferrer">
                                         <img src={Git}
                                              width="75%"
+                                             className="my-links"
                                              height="auto"
                                              alt='Greet' /></a>
                                     </Col>
@@ -68,6 +71,7 @@ function Home() {
                                         <a href="https://www.facebook.com/profile.php?id=100009437648038" target="_blank" rel="noopener noreferrer">
                                         <img src={Fb}
                                              width="75%"
+                                             className="my-links"
                                              height="auto"
                                              alt='Greet' /></a>
                                     </Col>
