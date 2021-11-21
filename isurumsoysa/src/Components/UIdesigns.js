@@ -33,6 +33,31 @@ function UIdesigns() {
             <Row className="project-row my-3 px-4">
                 <Col className="abt-tab-col my-2 py-3 px-4 mx-2">
                     <div className="abt-tab px-1">
+                        <h4 style={{color:"#6F10B4"}}>Isuru M Soysa - Portfolio Prototype</h4>
+                    </div>
+                    <div className="pt-3">
+                        <h6 style={{color:"#454545"}}>
+                            <h5><b>Portfolio Website</b></h5><br/>
+                            This is the UI/UX prototype design of the website now you are browsing.
+                            I used <span style={{color:"#6F10B4"}}> Figma software </span> for design the prototype.
+                            This project developed using <span style={{color:"#6F10B4"}}>  React. </span>
+
+                        </h6><br/><br/>
+
+                        <h6><b>Watch the UX/UI Demonstration of this website.</b></h6><br/>
+                    </div>
+                    <div className="iframe-container text-center px-4">
+                        <iframe width="840" height="473" src="https://www.youtube.com/embed/9jgVBV7HiHI"
+                                title="YouTube video player" frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen/>
+                    </div><br/>
+                </Col>
+            </Row>
+
+            <Row className="project-row my-3 px-4">
+                <Col className="abt-tab-col my-2 py-3 px-4 mx-2">
+                    <div className="abt-tab px-1">
                         <h4 style={{color:"#6F10B4"}}>Lake View Cottage (Web Application)</h4>
                     </div>
                     <div className="pt-3">
@@ -121,7 +146,6 @@ function UIdesigns() {
                             <span style={{color:"#6F10B4"}}>
                                 <b>UI/UX Designer :</b> Isuru M Soysa<br/>
                                 <b>Front End Developers :</b> Isuru M Soysa, Tharindu Lakmal<br/>
-                                <b>Front End Developer :</b>  Thuvarakan Suppaiah <br/>
                                 <b>Back End Developers :</b>  Isuru Madumadhawa <br/>
                                 <b>UML Designers :</b>  Bashith Piyumal, Tharindu Chaminda, Tharindu Lakmal, Aruni Prasangika <br/>
                                 <b>Graphic Designer and Documentation :</b>  Tharindu Chaminda<br/>
