@@ -38,6 +38,19 @@ function Home() {
                                     </label>
                             </Col>
                         </Row>
+                        <Row>
+                            <Col  className="col-5"></Col>
+                            <Col  className="home-description">
+                                <div className="col-7 pt-1 pb-2">
+                                    <a href="https://drive.google.com/file/d/1ErVsazpkdLUq1GGCGsRWMjg-7BLrkaQN/view?usp=sharing"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        <button className="visit-website-btn px-3 py-1">
+                                            View My Resume
+                                        </button> </a>
+                                </div>
+                            </Col>
+                    </Row>
                         <Row className="py-2">
                             <Col className="col-5">
                             </Col>
@@ -78,6 +91,7 @@ function Home() {
                                 </Row>
                             </Col>
                         </Row>
+
                 </Col>
                 <Col xs={{ span: 12, order: 1 }} md={{ span: 12, order: 1 }} lg={{ span: 6, order: 2 }}  className="hello-img text-center col-6">
                     <img src={ProfileImage}

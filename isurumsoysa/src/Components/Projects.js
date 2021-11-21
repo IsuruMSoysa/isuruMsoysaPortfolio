@@ -21,6 +21,13 @@ function Projects() {
                             project and now it's in the final stage in development.
                         </h6>
                     </div>
+                    <div className="py-2">
+                        <a href="https://youtu.be/lT1aFdjK4WM"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <button className="visit-website-btn px-3 py-1">
+                                Visit Demonstration</button>  </a>
+                    </div>
                 </Col>
                 </Col>
                 <Col lg={6} md={12} sm={12} xs={12}  className="col-6">
@@ -85,7 +92,15 @@ function Projects() {
                                 and a Front-End developer </span> of this project. The mobile application was developed
                             using   <span style={{color:"#6F10B4"}}>Xamarin Forms, C# and Visual Studio IDE.</span>
                         </h6>
-                    </div></Col>
+                    </div>
+                    <div className="py-2">
+                        <a href="https://youtu.be/Pvlj0cpE2dk"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <button className="visit-website-btn px-3 py-1">
+                                Visit Demonstration</button>  </a>
+                    </div>
+                </Col>
                 </Col>
             </Row>
 
@@ -104,6 +119,13 @@ function Projects() {
                             project also developed <span style={{color:"#6F10B4"}}>
                             only using HTMl, CSS and Javascript.</span>
                         </h6>
+                    </div>
+                    <div className="py-2">
+                        <a href="https://youtu.be/liqy5PDu3As"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <button className="visit-website-btn px-3 py-1">
+                                Visit Demonstration</button>  </a>
                     </div>
                 </Col></Col>
                 <Col lg={6} md={12} sm={12} xs={12}  className="col-6">
