@@ -46,7 +46,7 @@ function Home() {
                                        target="_blank"
                                        rel="noopener noreferrer">
                                         <button className="visit-website-btn px-3 py-1">
-                                            View My Resume
+                                            View My Resume Here
                                         </button> </a>
                                 </div>
                             </Col>
