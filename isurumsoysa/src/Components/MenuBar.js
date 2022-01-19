@@ -102,16 +102,16 @@ function App() {
                                    }
                                    {
                                        (clickedTab === "UI Designs") ?
-                                           <Link to="/uidesigns" className=" px-4 mx-2"
+                                           <Link to="/demo" className=" px-4 mx-2"
                                                  onClick={()=>handleMenuClick("UI Designs")}
                                                  style={{borderBottom:"3px solid #6F10B4", color:"#6F10B4"}}>
-                                               <label className="menu-tab-select py-1" >UI Designs</label>
+                                               <label className="menu-tab-select py-1" >Demonstrations</label>
                                            </Link> :
-                                           <Link to="/uidesigns"
+                                           <Link to="/demo"
                                                  onClick={()=>handleMenuClick("UI Designs")}
                                                  className="menu-tab px-4 mx-2" >
                                                <label
-                                                   className="menu-tab-select py-1">UI Designs</label>
+                                                   className="menu-tab-select py-1">Demonstrations</label>
                                            </Link>
                                    }
                                </Nav>

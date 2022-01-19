@@ -33,8 +33,8 @@ function Home() {
                             <Col className="home-description col-7 py-2 py-md-4 pt-sm-4 ps-3 text-start">
                                     <label>
                                         I’m a creative minded personality desirous in
-                                        <span style={{color:"#6F10B4"}}> Graphic Designing </span>
-                                        and<span style={{color:"#6F10B4"}}> UI/UX Designing</span>.
+                                        <span style={{color:"#6F10B4"}}> front-end web development </span>
+                                        and<span style={{color:"#6F10B4"}}> UI/UX designing</span>.
                                     </label>
                             </Col>
                         </Row>
@@ -42,7 +42,7 @@ function Home() {
                             <Col  className="col-5"></Col>
                             <Col  className="home-description">
                                 <div className="col-7 pt-1 pb-2">
-                                    <a href="https://drive.google.com/file/d/1ErVsazpkdLUq1GGCGsRWMjg-7BLrkaQN/view?usp=sharing"
+                                    <a href="https://drive.google.com/file/d/1G2LdiZs7Yuy6vCjHOBcrPTxp8mt3M2dE/view?usp=sharing"
                                        target="_blank"
                                        rel="noopener noreferrer">
                                         <button className="visit-website-btn px-3 py-1">

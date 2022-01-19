@@ -67,10 +67,17 @@ import mM from '../Images/Graphics/63.webp';
 import nN from '../Images/Graphics/64.webp';
 import oO from '../Images/Graphics/65.webp';
 import pP from '../Images/Graphics/66.webp';
+import qQ from '../Images/Graphics/69.webp';
+import rR from '../Images/Graphics/70.webp';
+import sS from '../Images/Graphics/71.webp';
+import tT from '../Images/Graphics/72.webp';
+import uU from '../Images/Graphics/73.webp';
+import vV from '../Images/Graphics/74.webp';
+import xX from '../Images/Graphics/75.webp';
 
 const imgArr = [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,
                 A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,
-                 aA,bB,cC,dD,eE,fF,gG,hH,iI,jJ,kK,lL,mM,nN,oO,pP];
+                 aA,bB,cC,dD,eE,fF,gG,hH,iI,jJ,kK,lL,mM,nN,oO,pP,qQ,rR,sS,tT,uU,vV,xX];
 
 const imgItems = imgArr.map((imgs) =>
     <img className="image-map" src={imgs} />
