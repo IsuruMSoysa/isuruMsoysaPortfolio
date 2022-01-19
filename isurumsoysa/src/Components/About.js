@@ -11,8 +11,7 @@ function About() {
                         </div>
                         <div className="pt-3">
                             <h6 style={{color:"#454545"}}>
-                                <b>B.Sc.(Hons) in Management and Information Technology (2019 - Present)</b><br/>
-                                Specializing in Business Systems Engineering<br/>
+                                <b>B.Sc. in Management and Information Technology (2019 - Present)</b><br/>
                                 Department of Industrial Management,<br/>
                                 University of Kelaniya
                             </h6>
@@ -49,8 +48,8 @@ function About() {
                         <div className="pt-3">
                             <h6 style={{color:"#454545"}}>
                                 <b>Technical Competency Examination - LIFE (2018)</b><br/>
-                                Thesaurus Computer Centre, <br/>
-                                Panadura
+                                Sri Lanka Insurance Institute<br/>
+                                Sri Lnaka
                             </h6>
                         </div>
                     </Col>

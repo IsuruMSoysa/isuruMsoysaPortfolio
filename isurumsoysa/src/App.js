@@ -22,7 +22,7 @@ function App() {
                 <Route path="/graphics" element={<Graphics/>} />
                 <Route path="/projects" element={<Projects/>} />
                 <Route path="/experience" element={<Experience/>} />
-                <Route path="/uidesigns" element={<UIdesigns/>} />
+                <Route path="/demo" element={<UIdesigns/>} />
             </Routes>
                 <Copyright/>
         </Router>

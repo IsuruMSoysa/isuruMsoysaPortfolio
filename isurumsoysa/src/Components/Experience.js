@@ -28,9 +28,9 @@ function Experience() {
                                      alt='Greet' />
                             </Col>
                             <Col sm={12} md={9} lg={9} xs={12} className="exp-det col-9">
-                                <h5 style={{color:"#6F10B4"}}><b>UI/UX Designer and Front-End Developer</b></h5>
-                                <h5 style={{color:"#585858"}}>AccSeedd IT Solutions Startup Company</h5>
-                                <h6 style={{color:"#585858"}}>2020 Feb - 2021 Aug</h6>
+                                <h5 style={{color:"#6F10B4"}}><b>Front-End Developer and Marketing Team Member </b></h5>
+                                <h5 style={{color:"#585858"}}>AccSeedd IT Solutions (Pvt) Ltd.</h5>
+                                <h6 style={{color:"#585858"}}>2020 Feb - Present</h6>
                                 <Row className="px-2 py-0 ">
                                     <Col className=" px-0 mx-1 col-1">
                                         <a href="http://www.accseedd.com/" target="_blank" rel="noopener noreferrer">
@@ -75,7 +75,7 @@ function Experience() {
                             </Col>
                             <Col sm={12} md={9} lg={9} xs={12} className="exp-det col-9">
                                 <h5 style={{color:"#6F10B4"}}><b>Intern - Marketing and Business Development</b></h5>
-                                <h5 style={{color:"#585858"}}>Advantis 3PL Plus</h5>
+                                <h5 style={{color:"#585858"}}>Advantis 3PL Plus (Logiwiz Ltd.)</h5>
                                 <h6 style={{color:"#585858"}}>2021</h6>
                                 <Row className="px-2 py-0">
                                     <Col className="px-0 mx-1 col-1">
@@ -121,7 +121,7 @@ function Experience() {
                             </Col>
                             <Col sm={12} md={9} lg={9} className="exp-det col-9">
                                 <h5 style={{color:"#6F10B4"}}><b>Industrial Training - React Base</b></h5>
-                                <h5 style={{color:"#585858"}}>SoftVessel IT Solutions</h5>
+                                <h5 style={{color:"#585858"}}>SoftVessel (Pvt) Ltd.</h5>
                                 <h6 style={{color:"#585858"}}>2021 Apr - Present</h6>
                                 <Row className="px-2 py-0">
                                     <Col className="px-0 mx-1 col-1">

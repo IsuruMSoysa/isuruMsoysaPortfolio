@@ -133,12 +133,11 @@
 }
 
 .visit-website-btn{
-    background-color: white;
-    color: #6F10B4;
+    background-color: #6F10B4;
+    color: white;
     border: none;
     border-radius: 20px;
     transition: 0.2s;
-    box-shadow:1px 1px 3px #6F10B4;
 }
 
 .visit-website-btn a{
@@ -148,6 +147,7 @@
 
 .visit-website-btn:hover{
     transition: 0.2s;
+    transform: scale(1.04);
     background-color: #6F10B4;
     color: white;
 }
