@@ -17,6 +17,52 @@ function Experience() {
     return (
         <Container >
             <div>
+                <Row className="project-row px-4">
+                    <Col md={0} lg={2} sm={0} className="col-2"></Col>
+                    <Col md={12} lg={8} sm={12} className="col-8 abt-tab-col my-2 py-3 px-4 mx-2">
+                        <Row className="">
+                            <Col sm={12} md={3} lg={3} xs={12} className="exp-logo col-3 text-center">
+                                <img src={soft}
+                                     width="70%"
+                                     height="auto"
+                                     alt='Greet' />
+                            </Col>
+                            <Col sm={12} md={9} lg={9} className="exp-det col-9">
+                                <h5 style={{color:"#6F10B4"}}><b>React Base Industrial Training</b></h5>
+                                <h5 style={{color:"#585858"}}>SoftVessel (Pvt) Ltd.</h5>
+                                <h6 style={{color:"#585858"}}>2021 Apr - Present</h6>
+                                <Row className="px-2 py-0">
+                                    <Col className="px-0 mx-1 col-1">
+                                        <a href="https://www.softvessel.com/" target="_blank" rel="noopener noreferrer">
+                                            <img src={web}
+                                                 className="exp-link"
+                                                 width="75%"
+                                                 height="auto"
+                                                 alt='Facebook Link' /></a>
+                                    </Col>
+                                    <Col className="px-0 mx-1 col-1">
+                                        <a href="https://www.linkedin.com/company/softvessel/" target="_blank" rel="noopener noreferrer">
+                                            <img src={Li}
+                                                 className="exp-link"
+                                                 width="75%"
+                                                 height="auto"
+                                                 alt='Linked In Link' /></a>
+                                    </Col>
+                                    <Col className="px-0 mx-1 col-1">
+                                        <a href="https://www.facebook.com/SoftVessel" target="_blank" rel="noopener noreferrer">
+                                            <img src={Fb}
+                                                 className="exp-link"
+                                                 width="75%"
+                                                 height="auto"
+                                                 alt='Facebook Link' /></a>
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col md={0} lg={2} sm={0} className="col-2"></Col>
+                </Row>
+
                 <Row className=" project-row px-4">
                     <Col md={0} lg={2} sm={0} className="col-2"></Col>
                     <Col md={12} lg={8} sm={12} className="col-8 abt-tab-col my-2 py-3 px-4 mx-2">
@@ -96,52 +142,6 @@ function Experience() {
                                     </Col>
                                     <Col className="px-0 mx-1 col-1">
                                         <a href="https://www.facebook.com/advantis3plplus" target="_blank" rel="noopener noreferrer">
-                                        <img src={Fb}
-                                             className="exp-link"
-                                             width="75%"
-                                             height="auto"
-                                             alt='Facebook Link' /></a>
-                                    </Col>
-                                </Row>
-                            </Col>
-                        </Row>
-                    </Col>
-                    <Col md={0} lg={2} sm={0} className="col-2"></Col>
-                </Row>
-
-                <Row className="project-row px-4">
-                    <Col md={0} lg={2} sm={0} className="col-2"></Col>
-                    <Col md={12} lg={8} sm={12} className="col-8 abt-tab-col my-2 py-3 px-4 mx-2">
-                        <Row className="">
-                            <Col sm={12} md={3} lg={3} xs={12} className="exp-logo col-3 text-center">
-                                <img src={soft}
-                                     width="70%"
-                                     height="auto"
-                                     alt='Greet' />
-                            </Col>
-                            <Col sm={12} md={9} lg={9} className="exp-det col-9">
-                                <h5 style={{color:"#6F10B4"}}><b>Industrial Training - React Base</b></h5>
-                                <h5 style={{color:"#585858"}}>SoftVessel (Pvt) Ltd.</h5>
-                                <h6 style={{color:"#585858"}}>2021 Apr - Present</h6>
-                                <Row className="px-2 py-0">
-                                    <Col className="px-0 mx-1 col-1">
-                                        <a href="https://www.softvessel.com/" target="_blank" rel="noopener noreferrer">
-                                        <img src={web}
-                                             className="exp-link"
-                                             width="75%"
-                                             height="auto"
-                                             alt='Facebook Link' /></a>
-                                    </Col>
-                                    <Col className="px-0 mx-1 col-1">
-                                        <a href="https://www.linkedin.com/company/softvessel/" target="_blank" rel="noopener noreferrer">
-                                        <img src={Li}
-                                             className="exp-link"
-                                             width="75%"
-                                             height="auto"
-                                             alt='Linked In Link' /></a>
-                                    </Col>
-                                    <Col className="px-0 mx-1 col-1">
-                                        <a href="https://www.facebook.com/SoftVessel" target="_blank" rel="noopener noreferrer">
                                         <img src={Fb}
                                              className="exp-link"
                                              width="75%"

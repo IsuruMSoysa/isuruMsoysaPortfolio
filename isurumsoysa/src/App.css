@@ -162,6 +162,12 @@
     justify-content: center;
 }
 
+.rec-logo{
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+
 .exp-link{
     transition: 0.2s;
 }
