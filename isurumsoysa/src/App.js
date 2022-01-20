@@ -10,6 +10,7 @@ import Projects from "./Components/Projects";
 import Experience from "./Components/Experience";
 import UIdesigns from "./Components/UIdesigns";
 import Copyright from "./Components/Copyright";
+import Recommendation from "./Components/Recommendation";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/projects" element={<Projects/>} />
                 <Route path="/experience" element={<Experience/>} />
                 <Route path="/demo" element={<UIdesigns/>} />
+                <Route path="/recommendation" element={<Recommendation/>} />
             </Routes>
                 <Copyright/>
         </Router>

@@ -114,6 +114,20 @@ function App() {
                                                    className="menu-tab-select py-1">Demonstrations</label>
                                            </Link>
                                    }
+                                   {
+                                       (clickedTab === "Recommendation") ?
+                                           <Link to="/recommendation" className=" px-4 mx-2"
+                                                 onClick={()=>handleMenuClick("Recommendation")}
+                                                 style={{borderBottom:"3px solid #6F10B4", color:"#6F10B4"}}>
+                                               <label className="menu-tab-select py-1" >Recommendations</label>
+                                           </Link> :
+                                           <Link to="/recommendation"
+                                                 onClick={()=>handleMenuClick("Recommendation")}
+                                                 className="menu-tab px-4 mx-2" >
+                                               <label
+                                                   className="menu-tab-select py-1">Recommendations</label>
+                                           </Link>
+                                   }
                                </Nav>
                            </Navbar.Collapse>
                        </Navbar>
