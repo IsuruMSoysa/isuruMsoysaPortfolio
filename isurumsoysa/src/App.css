@@ -191,6 +191,62 @@
     height: 100%;
 }
 
+#skills {
+    line-height: 0;
+    -webkit-column-count: 3;
+    -webkit-column-gap:   0;
+    -moz-column-count:    3;
+    -moz-column-gap:      0;
+    column-count:         3;
+    column-gap:           0;
+    /*display: flex;*/
+    align-items: center;
+}
+
+.skill-map{
+    transition:0.3s;
+}
+
+.skill-map:hover{
+    transform: scale(1.027);
+    transition: 0.3s;}
+
+#skills div {
+    width: 100% !important;
+    height: auto !important;
+    padding: 5px;
+}
+
+@media (max-width: 1200px) {
+    #skills {
+        -moz-column-count:    3;
+        -webkit-column-count: 3;
+        column-count:         3;
+    }
+}
+@media (max-width: 1000px) {
+    #skills {
+        -moz-column-count:    3;
+        -webkit-column-count: 3;
+        column-count:         3;
+    }
+}
+@media (max-width: 800px) {
+    #skills {
+        -moz-column-count:    2;
+        -webkit-column-count: 2;
+        column-count:         2;
+    }
+}
+@media (max-width: 400px) {
+    #skills {
+        -moz-column-count:    1;
+        -webkit-column-count: 1;
+        column-count:         1;
+    }
+}
+
+
 @media screen and (max-width: 1441px) {
     .hello-text{
         font-size: 265%;
@@ -432,4 +488,28 @@
         padding: 20px;
         margin-left: 20px;
     }
+}
+
+
+/*******************************Skill Section **********************************/
+
+.skill-bubble-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-bubble{
+    background-color: #6F10B4;
+    color: white;
+    border-radius: 2em;
+    display:inline-block;
+    cursor: default;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+.skill-bubble:hover{
+    transform: scale(1.03);
+    transition: 0.2s;
 }

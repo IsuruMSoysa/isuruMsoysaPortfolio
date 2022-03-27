@@ -58,34 +58,20 @@ function App() {
                                                    className="menu-tab-select py-1">About</label>
                                            </Link>
                                    }
-                                   {
-                                       (clickedTab === "Graphics") ?
-                                           <Link to="/graphics" className=" px-4 mx-2"
-                                                 onClick={()=>handleMenuClick("Graphics")}
-                                                 style={{borderBottom:"3px solid #6F10B4", color:"#6F10B4"}}>
-                                               <label className="menu-tab-select py-1" >Graphics</label>
-                                           </Link> :
-                                           <Link to="/graphics"
-                                                 onClick={()=>handleMenuClick("Graphics")}
-                                                 className="menu-tab px-4 mx-2" >
-                                               <label
-                                                   className="menu-tab-select py-1">Graphics</label>
-                                           </Link>
-                                   }
-                                   {
-                                       (clickedTab === "Projects") ?
-                                           <Link to="/projects" className=" px-4 mx-2"
-                                                 onClick={()=>handleMenuClick("Projects")}
-                                                 style={{borderBottom:"3px solid #6F10B4", color:"#6F10B4"}}>
-                                               <label className="menu-tab-select py-1" >Projects</label>
-                                           </Link> :
-                                           <Link to="/projects"
-                                                 onClick={()=>handleMenuClick("Projects")}
-                                                 className="menu-tab px-4 mx-2" >
-                                               <label
-                                                   className="menu-tab-select py-1">Projects</label>
-                                           </Link>
-                                   }
+                                   {/*{*/}
+                                   {/*    (clickedTab === "Projects") ?*/}
+                                   {/*        <Link to="/projects" className=" px-4 mx-2"*/}
+                                   {/*              onClick={()=>handleMenuClick("Projects")}*/}
+                                   {/*              style={{borderBottom:"3px solid #6F10B4", color:"#6F10B4"}}>*/}
+                                   {/*            <label className="menu-tab-select py-1" >Projects</label>*/}
+                                   {/*        </Link> :*/}
+                                   {/*        <Link to="/projects"*/}
+                                   {/*              onClick={()=>handleMenuClick("Projects")}*/}
+                                   {/*              className="menu-tab px-4 mx-2" >*/}
+                                   {/*            <label*/}
+                                   {/*                className="menu-tab-select py-1">Projects</label>*/}
+                                   {/*        </Link>*/}
+                                   {/*}*/}
                                    {
                                        (clickedTab === "Experience") ?
                                            <Link to="/experience" className=" px-4 mx-2"
@@ -102,16 +88,44 @@ function App() {
                                    }
                                    {
                                        (clickedTab === "UI Designs") ?
-                                           <Link to="/demo" className=" px-4 mx-2"
+                                           <Link to="/myprojects" className=" px-4 mx-2"
                                                  onClick={()=>handleMenuClick("UI Designs")}
                                                  style={{borderBottom:"3px solid #6F10B4", color:"#6F10B4"}}>
-                                               <label className="menu-tab-select py-1" >Demonstrations</label>
+                                               <label className="menu-tab-select py-1" >Projects</label>
                                            </Link> :
-                                           <Link to="/demo"
+                                           <Link to="/myprojects"
                                                  onClick={()=>handleMenuClick("UI Designs")}
                                                  className="menu-tab px-4 mx-2" >
                                                <label
-                                                   className="menu-tab-select py-1">Demonstrations</label>
+                                                   className="menu-tab-select py-1">Projects</label>
+                                           </Link>
+                                   }
+                                   {
+                                       (clickedTab === "Graphics") ?
+                                           <Link to="/graphics" className=" px-4 mx-2"
+                                                 onClick={()=>handleMenuClick("Graphics")}
+                                                 style={{borderBottom:"3px solid #6F10B4", color:"#6F10B4"}}>
+                                               <label className="menu-tab-select py-1" >Graphics</label>
+                                           </Link> :
+                                           <Link to="/graphics"
+                                                 onClick={()=>handleMenuClick("Graphics")}
+                                                 className="menu-tab px-4 mx-2" >
+                                               <label
+                                                   className="menu-tab-select py-1">Graphics</label>
+                                           </Link>
+                                   }
+                                   {
+                                       (clickedTab === "Skills") ?
+                                           <Link to="/skills" className=" px-4 mx-2"
+                                                 onClick={()=>handleMenuClick("Skills")}
+                                                 style={{borderBottom:"3px solid #6F10B4", color:"#6F10B4"}}>
+                                               <label className="menu-tab-select py-1" >Skill Vollet</label>
+                                           </Link> :
+                                           <Link to="/skills"
+                                                 onClick={()=>handleMenuClick("Skills")}
+                                                 className="menu-tab px-4 mx-2" >
+                                               <label
+                                                   className="menu-tab-select py-1">Skill Vollet</label>
                                            </Link>
                                    }
                                    {
