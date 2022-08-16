@@ -4,6 +4,8 @@ import RecomCompo from "./RecomCompo";
 import rd from "../Images/Logos/rd.png";
 import js from "../Images/Logos/js.png";
 import lj from "../Images/Logos/lj.png";
+import ck from "../Images/Logos/ck.png";
+
 
 function Recommendation() {
 
@@ -33,6 +35,17 @@ function Recommendation() {
                 linkedInLink="https://www.linkedin.com/in/lakmini-jayasekara-03282215b/"
                 fbLink="https://www.facebook.com/lakmini.jayasekara.988"
                 pic={lj}
+            />
+             <RecomCompo
+                quate="Isuru is a creative and committed teammate who has a passion towards making creative business content for the social media. Isuru is not only a reliable, self motivated individual but also an enthusiastic team player who has a positive attitude towards work. Isuru always strives to do a solid work in whatever the task he is been assigned to. 
+
+                During Isuru's internship, he was actively involved in creating content for the company and coming up with plans to improve the social media reach. His solid work encouraged us to continually involve him in on going projects and recommend anyone else to do the same."
+                author="Charu Katuwawala"
+                description1="Marketing and Business Development"
+                description2="Hayleys Advantis Limited"
+                linkedInLink="https://www.linkedin.com/in/charu-katuwawala/"
+                // fbLink="https://www.facebook.com/lakmini.jayasekara.988"
+                pic={ck}
             />
             <RecomCompo
                 quate="Isuru proved to be a fantastic person to work with. He worked with me as a project manager and

@@ -2,7 +2,11 @@
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #0f0110;
+    color: #bebabe;
 }
+
+
 
 .MenuBar{
     display: flex;
@@ -12,11 +16,11 @@
 .menu-tab-select{
     cursor: pointer;
     text-decoration: none;
-    color: #585858;
+    color: #bebabe;
 }
 
 .menu-tab-select:hover{
-    color: #6F10B4 ;
+    color: #9818f3;
 }
 
 
@@ -24,6 +28,30 @@
     display: grid;
     align-content: center;
 }
+
+
+
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(240, 134, 213);
+    border-radius: 0px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #9818f38b;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9818f38b;
+  }
+  
 
 
 @media screen and (max-width: 991px) {
@@ -39,18 +67,18 @@
 
 
 /*.hello-box{*/
-/*    border-bottom: 3px solid #6F10B4;*/
+/*    border-bottom: 3px solid #9818f3;*/
 /*}*/
 
 .hello-text{
-    color: #6F10B4;
+    color: #9818f3;
     font-weight: bold;
     font-size: 350%;
-    border-bottom: 3px solid #585858;
+    border-bottom: 3px solid #bebabe;
 }
 
 .home-description{
-    color: #585858;
+    color: #bebabe;
     font-size: 110%;
 
 }
@@ -113,19 +141,19 @@
 }
 
 .abt-tab-col{
-    box-shadow:1px 1px 3px #B0B0B0;
+    box-shadow:1px 1px 3px #bebabe;
     border-radius: 10px;
     transition: 0.2s;
 }
 
 .abt-tab-col:hover{
-    box-shadow:1px 2px 3px #6F10B4;
+    box-shadow:1px 2px 3px #9818f3;
     transform: scale(1.01);
     transition: 0.2s;
 }
 
 .abt-tab{
-    border-bottom: 3px solid #6F10B4;
+    border-bottom: 3px solid #9818f3;
 }
 
 .abt-tab h4 {
@@ -133,7 +161,7 @@
 }
 
 .visit-website-btn{
-    background-color: #6F10B4;
+    background-color: #9818f3;
     color: white;
     border: none;
     border-radius: 20px;
@@ -142,13 +170,13 @@
 
 .visit-website-btn a{
     text-decoration: none;
-    color: #585858;
+    color: #bebabe;
 }
 
 .visit-website-btn:hover{
     transition: 0.2s;
     transform: scale(1.04);
-    background-color: #6F10B4;
+    background-color: #9818f3;
     color: white;
 }
 
@@ -500,7 +528,7 @@
 }
 
 .skill-bubble{
-    background-color: #6F10B4;
+    background-color: #9818f3;
     color: white;
     border-radius: 2em;
     display:inline-block;
